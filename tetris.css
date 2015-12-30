@@ -1,0 +1,12 @@
+html {
+	background-color: rgb(210,210,210);
+}
+.midpanel {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ascii {
+	font: 10px/6px monospace;
+	color: rgb(154, 155, 204);
+}
