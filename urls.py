@@ -14,9 +14,6 @@ define("port", default=8000, help="run on the given port", type=int)
 class Application(tornado.web.Application):
     def __init__(self):
         handlers = [
-            (r"/", views.MainHandler),
-            (r"/signup", views.SignupHandler),
-            (r"/login", views.LoginHandler),
             (r"/tetris",views.TetrisHandler),
             (r"/tetris/control", views.TetrisControlHandler),
             (r"/tetrissocket", views.TetrisSocketHandler),
