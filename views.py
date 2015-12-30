@@ -5,7 +5,6 @@ import tornado.websocket
 import hashlib, random, datetime
 
 from tornado import gen
-from models import Users
 from tornado_mysql import err
 
 class GeneralData:
