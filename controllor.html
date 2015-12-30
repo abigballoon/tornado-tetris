@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>A Big Balloon</title>
+  <link rel="shortcut icon" href="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+  <script src="{{ static_url("js/jquery.min.js") }}"></script>
+  <script src="{{ static_url("js/controllor.js") }}"></script>
+  <style>
+  .mainpanel{
+  	width:540px;
+  	margin:auto;
+  	margin-top:40px;
+  }
+  .button {
+  	width: 90px;
+  	height: 90px;
+  	border-radius: 45px;
+  	background-color: red;
+  }
+  .interact {
+  	width:120px;
+  	margin-top: 90px;
+  	float:right;
+  }
+  .directions {
+  	float:left;
+  	width:260px;
+  	height: 260px;
+  }
+  </style>
+</head>
+<body>
+	<div class="mainpanel">
+		<div class="directions">
+			<div class="button" id="up" style="margin:auto;">
+			</div>
+			<div class="button" id="right" style="float:right;">
+			</div>
+			<div class="button" id="left">
+			</div>
+			<div class="button" id="down" style="margin:auto;">
+			</div>
+		</div>
+		<div class="interact">
+			<div class="button" id="interact" style="float:left;">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
